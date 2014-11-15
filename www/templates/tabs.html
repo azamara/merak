@@ -1,0 +1,18 @@
+<!--
+  Create tabs with an icon and label, using the tabs-positive style.
+  Each tab's child <ion-nav-view> directive will have its own
+  navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top">
+
+  <!-- Main Tab -->
+  <ion-tab title="Scan Beacon" icon="icon ion-home" href="#/tab/main">
+    <ion-nav-view name="tab-main"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Beacon Tab -->
+  <ion-tab title="Activate Beacon" icon="icon ion-heart" href="#/tab/beacon">
+    <ion-nav-view name="tab-beacon"></ion-nav-view>
+  </ion-tab>
+
+</ion-tabs>

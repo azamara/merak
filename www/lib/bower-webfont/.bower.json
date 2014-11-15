@@ -1,0 +1,43 @@
+{
+  "name": "bower-webfont",
+  "authors": [
+    "William Kim <azamara@me.com>"
+  ],
+  "description": "Webfont repositories",
+  "keywords": [
+    "webfont",
+    "nanum-gothic"
+  ],
+  "main": [
+    "nanum-gothic/NanumGothic-Bold.eot",
+    "nanum-gothic/NanumGothic-Bold.ttf",
+    "nanum-gothic/NanumGothic-Bold.woff",
+    "nanum-gothic/NanumGothic-Bold.woff2",
+    "nanum-gothic/NanumGothic-ExtraBold.eot",
+    "nanum-gothic/NanumGothic-ExtraBold.ttf",
+    "nanum-gothic/NanumGothic-ExtraBold.woff",
+    "nanum-gothic/NanumGothic-ExtraBold.woff2",
+    "nanum-gothic/NanumGothic-Regular.eot",
+    "nanum-gothic/NanumGothic-Regular.ttf",
+    "nanum-gothic/NanumGothic-Regular.woff",
+    "nanum-gothic/NanumGothic-Regular.woff2"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/azamara/bower-webfont",
+  "_release": "6f2659c073",
+  "_resolution": {
+    "type": "branch",
+    "branch": "0.0.0-nanum-gothic",
+    "commit": "6f2659c073e24ba514d570e546f8d46db8679619"
+  },
+  "_source": "git://github.com/azamara/bower-webfont.git",
+  "_target": "0.0.0-nanum-gothic",
+  "_originalSource": "bower-webfont",
+  "_direct": true
+}

@@ -1,0 +1,34 @@
+<ion-view title="Scan Beacon">
+  <ion-content class="padding">
+    <div class="row">
+      <div class="col col-100">
+        <button class="btn btn-default btn-primary button-full" ng-click="startSearchBeacon()">
+          비콘 검색 시작
+        </button>
+      </div>
+      <div class="col col-100">
+        <button class="btn btn-default btn-warning button-full" ng-click="stopSearchBeacon()">
+          비콘 검색 중지
+        </button>
+      </div>
+    </div>
+    <div class="list"
+         ng-if="isSearchBeacon">
+
+      검색 중
+      <a class="item item-avatar" href="#"
+         ng-repeat="beacon in beacons track by $index">
+        <span class="item-image distance distance--{{beacon.type}}">{{beacon.accuracy}}M</span>
+
+        <h2>{{beacon.name}}</h2>
+
+        <p>
+          {{beacon.uuid}}
+          <br />
+          Major: {{beacon.major}} Minor: {{beacon.minor}} RSSI: {{beacon.rssi}}
+        </p>
+      </a>
+
+    </div>
+  </ion-content>
+</ion-view>

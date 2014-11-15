@@ -1,0 +1,92 @@
+/* Empty. Add your own CSS if you like */
+body {
+  font-family: 'Nanum Gothic'; }
+
+ion-nav-view {
+  background: gray; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
+.full-width {
+  width: 100%; }
+
+.distance {
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  padding-top: 7px;
+  letter-spacing: -1px;
+  color: #fff;
+  background: #1e6189; }
+
+.distance--immediate {
+  background: #48c9b0; }
+
+.distance--near {
+  background: #48c9b0; }
+
+.distance--far {
+  background: #48c9b0; }
+
+.beacon {
+  position: relative;
+  top: 120px;
+  left: 50%;
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%); }
+
+.beacon .ion-heart:before {
+  font-size: 66px; }
+
+.beacon.beacon--active:before {
+  position: absolute;
+  content: "";
+  height: 3em;
+  width: 3em;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 2px #48c9b0;
+  -webkit-animation: active 2s infinite linear;
+  animation: active 2s infinite linear; }
+
+.beacon.beacon--active:after {
+  position: absolute;
+  content: "";
+  height: 3em;
+  width: 3em;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 2px #48c9b0;
+  -webkit-animation: active 2s infinite linear;
+  animation: active 2s infinite linear;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s; }
+
+@-webkit-keyframes active {
+  0% {
+    -webkit-transform: scale(0.1);
+    opacity: 1; }
+  70% {
+    -webkit-transform: scale(3.5);
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes active {
+  0% {
+    transform: scale(0.1);
+    opacity: 1; }
+  70% {
+    transform: scale(3.5);
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+.icon--active {
+  color: #cc2311; }

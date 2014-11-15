@@ -1,0 +1,33 @@
+{
+  "name": "bower-webfont",
+  "version": "0.0.0",
+  "authors": [
+    "William Kim <azamara@me.com>"
+  ],
+  "description": "Webfont repositories",
+  "keywords": [
+    "webfont",
+    "nanum-gothic"
+  ],
+  "main": [
+    "nanum-gothic/NanumGothic-Bold.eot",
+    "nanum-gothic/NanumGothic-Bold.ttf",
+    "nanum-gothic/NanumGothic-Bold.woff",
+    "nanum-gothic/NanumGothic-Bold.woff2",
+    "nanum-gothic/NanumGothic-ExtraBold.eot",
+    "nanum-gothic/NanumGothic-ExtraBold.ttf",
+    "nanum-gothic/NanumGothic-ExtraBold.woff",
+    "nanum-gothic/NanumGothic-ExtraBold.woff2",
+    "nanum-gothic/NanumGothic-Regular.eot",
+    "nanum-gothic/NanumGothic-Regular.ttf",
+    "nanum-gothic/NanumGothic-Regular.woff",
+    "nanum-gothic/NanumGothic-Regular.woff2"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

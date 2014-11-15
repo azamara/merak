@@ -1,0 +1,12 @@
+<ion-view title="Activate Beacon">
+  <ion-content class="padding">
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" ng-model="beacon.name" placeholder="Beacon 이름을 입력해주세요." />
+      </label>
+    </div>
+    <div class="beacon {{beaconState}}" ng-click="activateBeacon()">
+      <span class="icon ion-heart"></span>
+    </div>
+  </ion-content>
+</ion-view>
